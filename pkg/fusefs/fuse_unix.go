@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 	"github.com/jacobsa/fuse"
 	"github.com/jacobsa/fuse/fuseops"
 	"github.com/jacobsa/fuse/fuseutil"

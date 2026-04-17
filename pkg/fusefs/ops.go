@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/hydrator"
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/hydrator"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 type Engine struct {

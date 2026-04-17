@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cloudflare/artifact-fs/internal/cli"
+	"github.com/rektide/artifact-fs-extropic/pkg/cli"
 )
 
 // main keeps CLI wiring separate from the testable command implementation.

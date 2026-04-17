@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 func TestReadPersistedStatusIncludesHydrationStats(t *testing.T) {

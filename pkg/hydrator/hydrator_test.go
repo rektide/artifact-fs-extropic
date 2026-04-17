@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 func TestClassifyPriority(t *testing.T) {

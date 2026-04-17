@@ -1,4 +1,4 @@
-module github.com/cloudflare/artifact-fs
+module github.com/rektide/artifact-fs-extropic
 
 go 1.24.0
 

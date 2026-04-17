@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cloudflare/artifact-fs/internal/auth"
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/auth"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 type Store struct {

@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/fusefs"
-	"github.com/cloudflare/artifact-fs/internal/gitstore"
-	"github.com/cloudflare/artifact-fs/internal/hydrator"
-	"github.com/cloudflare/artifact-fs/internal/logging"
-	"github.com/cloudflare/artifact-fs/internal/model"
-	"github.com/cloudflare/artifact-fs/internal/overlay"
-	"github.com/cloudflare/artifact-fs/internal/snapshot"
+	"github.com/rektide/artifact-fs-extropic/pkg/fusefs"
+	"github.com/rektide/artifact-fs-extropic/pkg/gitstore"
+	"github.com/rektide/artifact-fs-extropic/pkg/hydrator"
+	"github.com/rektide/artifact-fs-extropic/pkg/logging"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/overlay"
+	"github.com/rektide/artifact-fs-extropic/pkg/snapshot"
 )
 
 type repoSpec struct {

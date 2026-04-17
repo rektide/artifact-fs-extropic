@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/auth"
-	"github.com/cloudflare/artifact-fs/internal/daemon"
-	"github.com/cloudflare/artifact-fs/internal/logging"
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/auth"
+	"github.com/rektide/artifact-fs-extropic/pkg/daemon"
+	"github.com/rektide/artifact-fs-extropic/pkg/logging"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 type mountedE2ERepo struct {

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/daemon"
-	"github.com/cloudflare/artifact-fs/internal/logging"
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/daemon"
+	"github.com/rektide/artifact-fs-extropic/pkg/logging"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 	ucli "github.com/urfave/cli"
 )
 

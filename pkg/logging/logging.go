@@ -5,7 +5,7 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/cloudflare/artifact-fs/internal/auth"
+	"github.com/rektide/artifact-fs-extropic/pkg/auth"
 )
 
 func NewJSONLogger(w io.Writer, level slog.Level) *slog.Logger {

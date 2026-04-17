@@ -11,8 +11,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/meta"
-	"github.com/cloudflare/artifact-fs/internal/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/meta"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
 )
 
 var migrations = []string{

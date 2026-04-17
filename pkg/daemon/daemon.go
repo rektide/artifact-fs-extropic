@@ -12,16 +12,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudflare/artifact-fs/internal/auth"
-	"github.com/cloudflare/artifact-fs/internal/fusefs"
-	"github.com/cloudflare/artifact-fs/internal/gitstore"
-	"github.com/cloudflare/artifact-fs/internal/hydrator"
-	"github.com/cloudflare/artifact-fs/internal/meta"
-	"github.com/cloudflare/artifact-fs/internal/model"
-	"github.com/cloudflare/artifact-fs/internal/overlay"
-	"github.com/cloudflare/artifact-fs/internal/registry"
-	"github.com/cloudflare/artifact-fs/internal/snapshot"
-	"github.com/cloudflare/artifact-fs/internal/watcher"
+	"github.com/rektide/artifact-fs-extropic/pkg/auth"
+	"github.com/rektide/artifact-fs-extropic/pkg/fusefs"
+	"github.com/rektide/artifact-fs-extropic/pkg/gitstore"
+	"github.com/rektide/artifact-fs-extropic/pkg/hydrator"
+	"github.com/rektide/artifact-fs-extropic/pkg/meta"
+	"github.com/rektide/artifact-fs-extropic/pkg/model"
+	"github.com/rektide/artifact-fs-extropic/pkg/overlay"
+	"github.com/rektide/artifact-fs-extropic/pkg/registry"
+	"github.com/rektide/artifact-fs-extropic/pkg/snapshot"
+	"github.com/rektide/artifact-fs-extropic/pkg/watcher"
 )
 
 const DefaultHydrationConcurrency = 4
